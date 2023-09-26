@@ -1,0 +1,156 @@
+my git commands assignment 
+
+
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git init
+Initialized empty Git repository in C:/Users/WASIU/Desktop/satepos/.git/
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (master)
+$ git statues
+git: 'statues' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        satepos.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (master)
+$ git add .
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (master)
+$ git branch -M main
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git add .
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   satepos.html
+
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ code .
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git commit -m "GOOD BYE WORD IN DIFFERENT LANGUAGE"
+[main (root-commit) 814a06e] GOOD BYE WORD IN DIFFERENT LANGUAGE
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 satepos.html
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ GIT STATUS
+git: 'STATUS' is not a git command. See 'git --help'.
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   satepos.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git add .
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git log
+commit 814a06e9765d5e61a859c8dd4ec7cb4752218e8f (HEAD -> main)
+Author: adebisiwasiu <adebisiwasiu14022@gmail.com>
+Date:   Wed Sep 20 12:06:31 2023 +0100
+
+    GOOD BYE WORD IN DIFFERENT LANGUAGE
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   satepos.html
+
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git commit -m "add new language mori: kia koa"
+[main d47c5d2] add new language mori: kia koa
+ 1 file changed, 11 insertions(+)
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   satepos.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ git log
+commit d47c5d26cb7b0e852e1916354516500d4f6ff824 (HEAD -> main)
+Author: adebisiwasiu <adebisiwasiu14022@gmail.com>
+Date:   Wed Sep 20 12:15:26 2023 +0100
+
+    add new language mori: kia koa
+
+commit 814a06e9765d5e61a859c8dd4ec7cb4752218e8f
+Author: adebisiwasiu <adebisiwasiu14022@gmail.com>
+Date:   Wed Sep 20 12:06:31 2023 +0100
+
+    GOOD BYE WORD IN DIFFERENT LANGUAGE
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$ Cd ..
+
+WASIU@WOLF MINGW64 ~/desktop/satepos (main)
+$
+
+
+
+
+
+
+the visual code
+
+<h1> tracking wit GIT</h1>
+<P>THIS PROJECT IS DEMOSTRATING THE USE OF GIT</P>
+
+<H2>GOOD BYE WORD IN DIFFERENT LANGUAGES</H2>
+<ol>
+            <li>English: Good bye world</li>
+            <li>Franch: Au Revoil</li>
+            <li>Spanish: Adios</li>
+            <li>Italian: Arriveder/Ciao</li>   
+            <li>Portuguese:Adeus</li>
+            <li>Maori: Kia koa</li>
+</ol>
+
+
+
+
+
+the web out put 
